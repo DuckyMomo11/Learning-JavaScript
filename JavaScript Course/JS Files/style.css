@@ -1,0 +1,48 @@
+* {
+      background-color: rgb(153, 72, 129);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+      display: grid;
+}
+
+.wrapper {
+      grid-template-rows: repeat(4, 1rf);
+      grid-template-columns: repeat(4, 1rf);
+}
+
+.header {
+      grid-row: 1;
+      grid-column:1/4;
+      text-align: center;
+}
+.header #title{
+      background-color:plum;
+      color: darkviolet;
+      padding: 3%;
+      margin: 1%;
+      border-style:solid;
+      border-color: violet;
+      border-radius: 10px;
+}
+
+.intro {
+      grid-row: 2;
+      grid-column: 2/3;
+      text-align: center;
+}
+
+.prereq {
+      grid-row: 3;
+      grid-column: 1/2;
+      padding: 1%;
+}
+
+.jstutorial {
+      grid-row: 3;
+      grid-column: 2/3;
+      padding: 1%;
+}
+
+.intro {
+      grid-column: 1;
+}
